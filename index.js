@@ -17,7 +17,9 @@ function startGame() {
         message = "You're out of the game! 😭"
         isAlive = false
     }
+
+    messageEl.textContent = message
 }
 
-    //messageEl.textContent = message 
-    console.log(message)
+     
+   
