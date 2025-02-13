@@ -19,4 +19,5 @@ function startGame() {
     }
 }
 
-    messageEl.textContent = message 
+    //messageEl.textContent = message 
+    console.log(message)
