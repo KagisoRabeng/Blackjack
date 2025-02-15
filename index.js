@@ -28,4 +28,6 @@ function startGame() {
 }
 
      
-   
+function newCard() {
+    console.log("Drawing new card")
+}
