@@ -10,6 +10,10 @@ let messageEl = document.getElementById("message-el")
 
 
 function startGame() {
+    renderGame()
+}
+
+function renderGame() {
 
     sumEl.textContent = "Sum :" + sum
     cardsEl.textContent = "Cards: " + firstCard + "+" + secondCard
@@ -29,5 +33,9 @@ function startGame() {
 
      
 function newCard() {
-    console.log("Drawing new card")
+    //console.log("Drawing new card")
+    let nextCard = 6
+    sum += nextCard
+    
+    renderGame()
 }
