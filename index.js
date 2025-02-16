@@ -8,11 +8,12 @@ let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
 let messageEl = document.getElementById("message-el")
 
-
+//calls the renderGame function to start the game
 function startGame() {
     renderGame()
 }
 
+//start game button
 function renderGame() {
 
     sumEl.textContent = "Sum :" + sum
@@ -31,7 +32,7 @@ function renderGame() {
     messageEl.textContent = message
 }
 
-     
+     //New card button
 function newCard() {
     //console.log("Drawing new card")
     let nextCard = 6
