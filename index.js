@@ -19,7 +19,7 @@ function startGame() {
 function renderGame() {
 
     sumEl.textContent = "Sum :" + sum[0] + sum[1]
-    cardsEl.textContent = "Cards: " + sum[0] + "+" + sum[1]
+    cardsEl.textContent = "Cards: " + sum[0] + "+" + sum
 
     if (sum <= 20) {
        message = "Do you want to draw a new card?"
